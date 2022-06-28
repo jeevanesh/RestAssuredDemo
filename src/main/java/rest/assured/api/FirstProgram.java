@@ -13,6 +13,7 @@ public class FirstProgram {
 		System.out.println(response.getStatusCode());
 		String bodyResponse = response.body().asString();
 		System.out.println(bodyResponse);
+		System.out.println("Content Type - "+response.getContentType());
 	}
 	
 }
